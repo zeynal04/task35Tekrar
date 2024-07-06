@@ -1,0 +1,252 @@
+*{margin: 0;
+padding: 0;
+text-decoration: none;
+list-style-type: none;
+color: white;
+}
+body{
+  height: auto;
+}
+.container{
+    display: flex;
+    align-items: center;
+height: 150px;
+
+justify-content: space-around;
+}
+ul{
+    display: flex;
+    gap: 15px;
+    font-size: 20px;
+}
+ul li a{font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+   
+    padding-left: 30px;
+
+}
+.container h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: #FFFFFF;
+    line-height: 0.75;
+}
+.container .number{
+    margin-right: 60px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.sec1{
+    background-image: url(/img/home_slider.jpg);
+  background-size: cover;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+  
+   align-items: center;
+ 
+    
+}
+body{
+    position: relative;
+}
+header{
+   position: fixed;
+   width: 100%;
+
+}
+.centerWord{
+   height: 1000px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.centerWord h2{
+    font-size: 100px;
+    line-height: 1.1;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-family: 'Oswald', sans-serif;
+}
+.bottomD{
+    background-color:#CED0D0 ;
+    height: 400px;
+    width:1100px;
+ margin-bottom: 20px; 
+    background-color: rgba(255, 255, 255, 0.26); 
+}
+.bottomD{
+display: flex;
+align-items: center;
+justify-content: center;
+
+    flex-direction: column;
+
+}
+.backW{
+    width: 900px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+.in{
+    border: none;
+    border-color: #F2F5F6;
+    
+    
+}
+button{
+    background-color: black;
+    
+    padding: 12px;
+    font-size: 18px;
+    width: 130px;
+    cursor: pointer;
+    
+}
+input {
+    padding:10px ;
+  color: black;
+
+}
+button{
+  
+    border-radius: 20px;
+}
+.top{
+    width: 300px;
+    height: 70px;
+    background-color: white;
+ font-size: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.sec2{
+    height:100%;
+   
+    background-color: white;
+    margin-top: 40px;
+    margin-left: 40px;
+    display: flex;
+    justify-content: center;
+   
+}
+.task2D{
+    width: 80%;
+ 
+    display: flex;
+}
+
+.leftDiv2 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.sec2LeftDivs{
+ 
+    width: 100%;
+    height: 200px;
+    display: flex;
+
+
+}
+.sec2LeftDivsMid{
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  
+
+}
+.sec2LeftDivs img{
+    max-height: 100%;
+    padding-left: 40px;
+}
+.sec2LeftTop h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    color: #181818;
+    line-height: 0.75;
+}
+.sec2LeftDivsMid .sec2LeftTop{
+    display: flex;
+    
+    align-items: end;
+}
+.sec2LeftDivsMid .sec2LeftTop span{
+    font-family: 'Oswald', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    
+    text-transform: uppercase;
+    line-height: 0.75;
+    letter-spacing: 0.2em;
+    margin-left: 4px;
+}
+.sec2LeftDivsMid a{font-family: 'Oswald', sans-serif;
+    font-size: 9px;
+    color: #8f8f8f;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+
+}
+.sec2LeftBottom {display: flex;
+flex-direction: column;}
+.sec2LeftBottom .bestTipes{font-family: 'Oswald', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    color: #181818;
+
+letter-spacing: 1px;}
+.sec2LeftBottom p{    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.9285;
+    font-weight: 400;
+    color: #72728c;
+width: 400px;}
+.sec2Right{
+    width: 40%;
+    height: 660px;
+    background-image: url(/img/travello.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+
+}
+.sec2Right  .travelloTop{
+    font-family: 'Oswald', sans-serif;
+    font-size: 48px;
+    color: #FFFFFF;
+    max-width: 210px;
+    line-height: 1;
+    text-align: center;
+
+}
+.sec2Right .travelloText{
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-top: 6px;
+    font-weight: 400;
+   
+
+}
